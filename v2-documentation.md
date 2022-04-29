@@ -1,18 +1,18 @@
 # Documentation
 
-All PancakeSwap pairs consist of two different tokens. BNB is not a native currency in PancakeSwap, and is represented only by WBNB in the pairs. 
+All TovaSwap pairs consist of two different tokens. BNB is not a native currency in TovaSwap, and is represented only by WBNB in the pairs. 
 
-The canonical WBNB address used by the PancakeSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
+The canonical WBNB address used by the TovaSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
 Results are cached for 5 minutes (or 300 seconds).
 
-## [`/v2/summary`](https://api.pancakeswap.info/api/v2/summary)
+## [`/v2/summary`](https://api.tovaswap.com/api/summary)
 
-Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves. 
+Returns data for the top ~1000 TovaSwap pairs, sorted by reserves. 
 
 ### Request
 
-`GET https://api.pancakeswap.info/api/v2/summary`
+`GET https://api.tovaswap.com/api/summary`
 
 ### Response
 
@@ -32,13 +32,13 @@ Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens`](https://api.pancakeswap.info/api/v2/tokens)
+## [`/v2/tokens`](https://api.tovaswap.com/api/tokens)
 
-Returns the tokens in the top ~1000 pairs on PancakeSwap, sorted by reserves.
+Returns the tokens in the top ~1000 pairs on TovaSwap, sorted by reserves.
 
 ### Request
 
-`GET https://api.pancakeswap.info/api/v2/tokens`
+`GET https://api.tovaswap.com/api/tokens`
 
 ### Response
 
@@ -57,13 +57,13 @@ Returns the tokens in the top ~1000 pairs on PancakeSwap, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens/0x...`](https://api.pancakeswap.info/api/v2/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82)
+## [`/v2/tokens/0x...`](https://api.tovaswap.com/api/tokens/0x6f1b5ea075e19c705ef9c1400f4df9000a713930)
 
 Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.pancakeswap.info/api/v2/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82`
+`GET https://api.tovaswap.com/api/tokens/0x6f1b5ea075e19c705ef9c1400f4df9000a713930`
 
 ### Response
 
@@ -79,13 +79,13 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/v2/pairs`](https://api.pancakeswap.info/api/v2/pairs)
+## [`/v2/pairs`](https://api.tovaswap.com/api/pairs)
 
-Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves.
+Returns data for the top ~1000 TovaSwap pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.pancakeswap.info/api/v2/pairs`
+`GET https://api.tovaswap.com/api/pairs`
 
 ### Response
 
