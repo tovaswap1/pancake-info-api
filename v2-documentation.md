@@ -6,7 +6,7 @@ The canonical WBNB address used by the TovaSwap interface is `0xbb4CdB9CBd36B01b
 
 Results are cached for 5 minutes (or 300 seconds).
 
-## [`/v2/summary`](https://api.tovaswap.com/api/summary)
+## [`/summary`](https://api.tovaswap.com/api/summary)
 
 Returns data for the top ~1000 TovaSwap pairs, sorted by reserves. 
 
@@ -32,7 +32,7 @@ Returns data for the top ~1000 TovaSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens`](https://api.tovaswap.com/api/tokens)
+## [`/tokens`](https://api.tovaswap.com/api/tokens)
 
 Returns the tokens in the top ~1000 pairs on TovaSwap, sorted by reserves.
 
@@ -57,7 +57,7 @@ Returns the tokens in the top ~1000 pairs on TovaSwap, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens/0x...`](https://api.tovaswap.com/api/tokens/0x6f1b5ea075e19c705ef9c1400f4df9000a713930)
+## [`/tokens/0x...`](https://api.tovaswap.com/api/tokens/0x6f1b5ea075e19c705ef9c1400f4df9000a713930)
 
 Returns the token information, based on address.
 
@@ -79,7 +79,7 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/v2/pairs`](https://api.tovaswap.com/api/pairs)
+## [`/pairs`](https://api.tovaswap.com/api/pairs)
 
 Returns data for the top ~1000 TovaSwap pairs, sorted by reserves.
 

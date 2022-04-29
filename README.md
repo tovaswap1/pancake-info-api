@@ -3,7 +3,7 @@
 The TovaSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface TovaSwap liquidity
 and volume information. All information is fetched from the underlying subgraphs.
 
-## v2 Documentation
+## Documentation
 
 The documentation of the endpoints, for TovaSwap v2, can be found [here](v2-documentation.md).
 
